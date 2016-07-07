@@ -1,0 +1,10 @@
+Command line:
+   fzystate_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54687
+
+Thu Jul 07 14:41:26 2016
+
+
+ Elaboration Time: 0.109375 sec

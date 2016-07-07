@@ -1,0 +1,28 @@
+Command line:
+   MUL8_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  63631
+
+Wed Jul 06 22:36:04 2016
+
+
+ Elaboration Time: 0.296875 sec
+
+ Current Memory Usage: 850.215 Meg
+
+ Total Signals          : 17
+ Total Nets             : 14
+ Total Signal Drivers   : 5
+ Total Blocks           : 6
+ Total Primitive Blocks : 4
+ Total Processes        : 4
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 374
+
+ Total Simulation Time: 0.578125 sec
+
+ Current Memory Usage: 1164.79 Meg
+
+Wed Jul 06 22:36:44 2016
+

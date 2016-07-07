@@ -1,0 +1,2 @@
+vhdl isim_temp "mux21.vhd"
+vhdl isim_temp "mux21_tb.vhd"

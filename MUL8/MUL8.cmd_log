@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "E:/VHDL/MUL8/MUL8.xst" -ofn "E:/VHDL/MUL8/MUL8.syr" 
+xst -intstyle ise -ifn "E:/VHDL/MUL8/MUL8.xst" -ofn "E:/VHDL/MUL8/MUL8.syr" 
+xst -intstyle ise -ifn "E:/VHDL/MUL8/MUL8.xst" -ofn "E:/VHDL/MUL8/MUL8.syr" 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/VHDL/MUL8/MUL8_tb_isim_beh.exe" -prj "E:/VHDL/MUL8/MUL8_tb_beh.prj" "work.MUL8_tb" 

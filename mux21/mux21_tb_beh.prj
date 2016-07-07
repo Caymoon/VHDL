@@ -1,0 +1,2 @@
+vhdl work "mux21.vhd"
+vhdl work "mux21_tb.vhd"

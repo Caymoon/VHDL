@@ -1,0 +1,2 @@
+vhdl work "fzystate.vhd"
+vhdl work "fzystate_tb.vhd"

@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "E:/VHDL/mux21/mux21.xst" -ofn "E:/VHDL/mux21/mux21.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 mux21.ngc mux21.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mux21_map.ncd mux21.ngd mux21.pcf 
+vhdtdtfi -lib work mux21.vhd -prj mux21 -o mux21.spl -module mux21 -template D:/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 mux21.spl E:/VHDL/mux21/mux21.sym 
+vhdtdtfi -prj mux21 -o E:/VHDL/mux21/mux21.tfi -module mux21 -template D:/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work mux21.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mux21.ucf -p xc7a100t-csg324-3 mux21.ngc mux21.ngd  
+netgen -intstyle ise -insert_glbl true -w -dir netgen/translate -ofmt verilog -sim mux21.ngd mux21_translate.v 

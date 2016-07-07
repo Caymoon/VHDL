@@ -1,0 +1,2 @@
+vhdl isim_temp "fzystate.vhd"
+vhdl isim_temp "fzystate_tb.vhd"

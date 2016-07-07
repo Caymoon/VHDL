@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/VHDL/mux21/mux21_tb_isim_beh.exe" -prj "E:/VHDL/mux21/mux21_tb_beh.prj" "work.mux21_tb" 

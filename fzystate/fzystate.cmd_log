@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "E:/VHDL/fzystate/fzystate.xst" -ofn "E:/VHDL/fzystate/fzystate.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim fzystate.ngc fzystate_synthesis.v 

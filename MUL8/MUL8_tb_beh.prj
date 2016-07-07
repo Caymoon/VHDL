@@ -1,0 +1,4 @@
+vhdl work "MUL4_COM.vhd"
+vhdl work "MUL2_COM.vhd"
+vhdl work "MUL8.vhd"
+vhdl work "MUL8_tb.vhd"

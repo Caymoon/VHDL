@@ -1,0 +1,4 @@
+vhdl isim_temp "MUL4_COM.vhd"
+vhdl isim_temp "MUL2_COM.vhd"
+vhdl isim_temp "MUL8.vhd"
+vhdl isim_temp "MUL8_tb.vhd"

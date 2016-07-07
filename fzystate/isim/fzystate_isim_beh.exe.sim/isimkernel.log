@@ -1,0 +1,28 @@
+Command line:
+   fzystate_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  65373
+
+Thu Jul 07 00:08:25 2016
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 850.69 Meg
+
+ Total Signals          : 11
+ Total Nets             : 11
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 2
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 371
+
+ Total Simulation Time: 0.125 sec
+
+ Current Memory Usage: 850.69 Meg
+
+Thu Jul 07 00:08:29 2016
+
