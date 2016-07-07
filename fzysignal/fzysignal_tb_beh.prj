@@ -1,0 +1,2 @@
+vhdl work "fzysignal.vhd"
+vhdl work "fzysignal_tb.vhd"

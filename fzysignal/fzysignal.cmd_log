@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/VHDL/fzysignal/fzysignal.xst" -ofn "E:/VHDL/fzysignal/fzysignal.syr" 

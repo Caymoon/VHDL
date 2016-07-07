@@ -1,0 +1,2 @@
+vhdl isim_temp "fzysignal.vhd"
+vhdl isim_temp "fzysignal_tb.vhd"
