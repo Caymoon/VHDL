@@ -1,0 +1,3 @@
+vhdl isim_temp "DQ.vhd"
+vhdl isim_temp "fzyserial4.vhd"
+vhdl isim_temp "fzyserial4_tb.vhd"

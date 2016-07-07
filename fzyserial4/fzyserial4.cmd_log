@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "E:/VHDL/fzyserial4/fzyserial4.xst" -ofn "E:/VHDL/fzyserial4/fzyserial4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 fzyserial4.ngc fzyserial4.ngd  

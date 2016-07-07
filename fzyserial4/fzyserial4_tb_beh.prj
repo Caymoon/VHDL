@@ -1,0 +1,3 @@
+vhdl work "DQ.vhd"
+vhdl work "fzyserial4.vhd"
+vhdl work "fzyserial4_tb.vhd"

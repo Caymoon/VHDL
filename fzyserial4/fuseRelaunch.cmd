@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/VHDL/fzyserial4/fzyserial4_tb_isim_beh.exe" -prj "E:/VHDL/fzyserial4/fzyserial4_tb_beh.prj" "work.fzyserial4_tb" 
