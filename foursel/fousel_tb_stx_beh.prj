@@ -1,0 +1,2 @@
+vhdl isim_temp "foursel.vhd"
+vhdl isim_temp "fousel_tb.vhd"

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/VHDL/foursel/top_tb_isim_beh.exe" -prj "E:/VHDL/foursel/top_tb_beh.prj" "work.top_tb" 

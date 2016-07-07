@@ -1,0 +1,2 @@
+vhdl work "foursel.vhd"
+vhdl work "foursel_tb.vhd"

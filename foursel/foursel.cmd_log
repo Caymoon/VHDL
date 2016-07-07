@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "E:/VHDL/foursel/foursel.xst" -ofn "E:/VHDL/foursel/foursel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 foursel.ngc foursel.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o foursel_map.ncd foursel.ngd foursel.pcf 
+par -w -intstyle ise -ol high -mt off foursel_map.ncd foursel.ncd foursel.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml foursel.twx foursel.ncd -o foursel.twr foursel.pcf 
+bitgen -intstyle ise -f foursel.ut foursel.ncd 
