@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/VHDL/VHDL/fzycomcase/ctrl_tb_isim_beh.exe" -prj "E:/VHDL/VHDL/fzycomcase/ctrl_tb_beh.prj" "work.ctrl_tb" 

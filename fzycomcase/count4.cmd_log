@@ -1,0 +1,2 @@
+vhdtdtfi -lib work count4.vhd -prj fzycomcase -o count4.spl -module count4 -template D:/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 count4.spl E:/VHDL/VHDL/fzycomcase/count4.sym 

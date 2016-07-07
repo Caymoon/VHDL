@@ -1,0 +1,2 @@
+vhdl isim_temp "count4.vhd"
+vhdl isim_temp "count4_tb.vhd"
