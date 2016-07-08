@@ -1,0 +1,10 @@
+Command line:
+   fzyserial_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49947
+
+Fri Jul 08 08:54:10 2016
+
+
+ Elaboration Time: 0.109375 sec

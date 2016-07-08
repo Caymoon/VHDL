@@ -1,0 +1,7 @@
+vhdl work "sreg.vhd"
+vhdl work "reg8.vhd"
+vhdl work "decode4.vhd"
+vhdl work "ctrl.vhd"
+vhdl work "count4.vhd"
+vhdl work "fzyserial.vhd"
+vhdl work "fzyserial_tb.vhd"

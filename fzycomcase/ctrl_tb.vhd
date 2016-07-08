@@ -120,7 +120,13 @@ BEGIN
    begin		
       -- hold reset state for 100 ns.
       --clrn <= 'Z';
-		--wait for 100 ns;	
+		--wait for 10 ns;	
+		serial <= '1'; --未开始状态
+		csn <= '1';
+		rdn <= '1';
+		wrn <= '1';
+		wait for clk_period;
+		
 		
 		--第一种情况，成功传输数据
 		serial <= '0'; --bit 0: 开始
@@ -188,7 +194,7 @@ BEGIN
 		wait for clk_period;
 		csn <= '1';
 		wrn <= '1';
-		wait for clk_period;
+		wait for clk_period;--第190ns处正常数据传输结束
 		
 		--case 2: 数据传输错误，引发校验中断
 		serial <= '0'; --bit 0: 开始
@@ -221,9 +227,7 @@ BEGIN
 		wait for clk_period/2;
 		serial <= '1'; --bit 9: 偶校验错误，应该为‘0’
 		d9 <= '0';
-		wait for clk_period/2;
-		
-		wait for clk_period/2;
+		wait for clk_period;
 		serial <= '1'; --bit 10
 		d9 <= '1';
 		wait for clk_period/2;
@@ -242,7 +246,7 @@ BEGIN
 		wait for clk_period;
 		csn <= '1';
 		wrn <= '1';
-		wait for clk_period;
+		wait for clk_period;--第340ns校验错误结束
 		
 		--case 3: 数据溢出
 		serial <= '0'; --bit 0: 开始
@@ -271,7 +275,7 @@ BEGIN
 		wait for clk_period;
 		serial <= '1'; --bit 8
 		wait for clk_period/2;
-		rq <= "11111111"; --latched
+		rq <= "11111111";
 		wait for clk_period/2;
 		serial <= '0'; --bit 9: 校验
 		d9 <= '0';

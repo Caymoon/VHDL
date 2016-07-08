@@ -1,5 +1,5 @@
 ISim log file
-Running: E:\VHDL\VHDL\fzycomcase\ctrl_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/VHDL/VHDL/fzycomcase/ctrl_tb_isim_beh.wdb 
+Running: E:\VHDL\VHDL\fzycomcase\fzyserial_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/VHDL/VHDL/fzycomcase/fzyserial_tb_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 This is a Full version of ISim.
 Time resolution is 1 ps

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2016-07-07T17:21:46</DateModified>
+  <DateModified>2016-07-08T08:12:00</DateModified>
   <ModuleName>fzycomcase</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>E:/VHDL/VHDL/fzycomcase/iseconfig/fzycomcase.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>E:/VHDL/VHDL/fzycomcase</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>E:/VHDL/VHDL/fzycomcase\</ImplementationReportsDirectory>
   <DateInitialized>2016-07-07T16:09:45</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

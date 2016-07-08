@@ -1,1 +1,6 @@
 work	"count4.vhd"
+work	"ctrl.vhd"
+work	"decode4.vhd"
+work	"fzyserial.vhd"
+work	"reg8.vhd"
+work	"sreg.vhd"
